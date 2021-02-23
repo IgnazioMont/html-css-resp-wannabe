@@ -76,62 +76,61 @@ img {
 /* MEDIA QUERY */
 /* Tablet size */
 @media screen and (max-width: 768px) {
-  .row {
-    width: 650px;
-    font-size: 18px;
-    background-color: rgb(139, 156, 201);
-    color: white;
-    margin: auto;
-    padding: 0;
-  }
-  .row h3 {
-    font-size: 35px;
-  }
-  img {
-    height: 120px;
-  }
-  #why .row {
-    padding: 0 20px;
-  }
-}
-
-
-
-/* Mobile size */
-@media screen and (max-width: 419px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   .row {
-    width: 400px;
-    font-size: 14px;
-    background-color: rgb(180, 135, 135);
-    color: white;
+    width: 640px;
+    font-size: 18px;
     margin: 10px auto;
     padding: 10px;
+    background-color: rgb(135, 250, 173) ;
   }
   #lezioni .row>.left,
   #lezioni .row>.right {
-  width: 40%;
-  float: left;
-}
+    width: 50%;
+    float: left;
+    padding: 16px;
+  }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    width: 30%;
+    width: 33%;
+    padding: 10px;
   }
   #why .row>.first, 
   #why .row>.second, 
   #why .row>.third {
     margin-top: 30px;
   }
+  #why hr {
+    margin-top: 14px;
+  }
+  .row h3 {
+    font-size: 25px;
+  }
+  img {
+    height: 120px;
+  }
+}
+
+/* Mobile size */
+@media screen and (max-width: 419px) {
+  .row {
+    width: 400px;
+    font-size: 15px;
+    background-color: lightskyblue ;
+  }
+  #why hr {
+    margin-top: 10px;
+  }
   .row h3 {
     font-size: 20px;
   }
   img {
-    height: 90px;
+    height: 80px;
   }
   .row .div {
     width: 30%;
