@@ -71,3 +71,70 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* MEDIA QUERY */
+/* Tablet size */
+@media screen and (max-width: 768px) {
+  .row {
+    width: 650px;
+    font-size: 18px;
+    background-color: rgb(139, 156, 201);
+    color: white;
+    margin: auto;
+    padding: 0;
+  }
+  .row h3 {
+    font-size: 35px;
+  }
+  img {
+    height: 120px;
+  }
+  #why .row {
+    padding: 0 20px;
+  }
+}
+
+
+
+/* Mobile size */
+@media screen and (max-width: 419px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .row {
+    width: 400px;
+    font-size: 14px;
+    background-color: rgb(180, 135, 135);
+    color: white;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 40%;
+  float: left;
+}
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 30%;
+  }
+  #why .row>.first, 
+  #why .row>.second, 
+  #why .row>.third {
+    margin-top: 30px;
+  }
+  .row h3 {
+    font-size: 20px;
+  }
+  img {
+    height: 90px;
+  }
+  .row .div {
+    width: 30%;
+    margin: 0 5px;
+  }
+}
