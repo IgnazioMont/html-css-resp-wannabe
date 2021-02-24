@@ -82,7 +82,7 @@ img {
     box-sizing: border-box;
   }
   .row {
-    width: 640px;
+    width: 100%;
     font-size: 18px;
     margin: 10px auto;
     padding: 10px;
@@ -90,19 +90,18 @@ img {
   }
   #lezioni .row>.left,
   #lezioni .row>.right {
-    width: 50%;
-    float: left;
-    padding: 16px;
+    width: 100%;
   }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    width: 33%;
+    width: 100%;
     padding: 10px;
   }
   #why .row>.first, 
   #why .row>.second, 
   #why .row>.third {
+    width: 100%;
     margin-top: 30px;
   }
   #why hr {
@@ -119,7 +118,7 @@ img {
 /* Mobile size */
 @media screen and (max-width: 419px) {
   .row {
-    width: 400px;
+    width: 100%;
     font-size: 15px;
     background-color: lightskyblue ;
   }
